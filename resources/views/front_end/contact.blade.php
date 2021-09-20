@@ -29,7 +29,7 @@
                             <img src="{{ asset('front_end/images/section_icon.png')}}" alt="Icon">
                             <h3 class="title">Get in touch</h3>
                         </div> <!-- section title -->
-                        <form action="/contactus" method="post">
+                        <form action="/contact" method="post">
                         {{ csrf_field()}}
                             <div class="row">
                                 <div class="col-md-6">

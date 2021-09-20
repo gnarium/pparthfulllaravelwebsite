@@ -23,7 +23,7 @@
         <div class="services_shape_1" style="background-image: url({{ asset('front_end/images/shape/shape-12.png')}})"></div>
         <div class="container">
             <div class="row">
-                @foreach($todoArr1 as $todo1)
+                @foreach($todoArr122 as $todo1)
 				    @if($todo1->galleryimage!= "" || $todo1->galleryimage != null)
                         @if (file_exists(public_path().'/upload/admin_profile/'.$todo1->galleryimage ))
                         <div class="col-lg-4 col-sm-6">

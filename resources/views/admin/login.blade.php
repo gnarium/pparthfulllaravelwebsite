@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-<title>Parth Charitable Trust</title>
+<title>Parth Charitable Trust Dashboard</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Visitors Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -17,13 +17,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- font-awesome icons -->
 <link rel="stylesheet" href="{{ asset('admin/css/font.css')}}" type="text/css"/>
 <link href="{{ asset('admin/css/font-awesome.css')}}" rel="stylesheet"> 
-<link rel="stylesheet" href="{{ asset('admin/css/morris.css')}}" type="text/css"/>
-<!-- calendar -->
-<link rel="stylesheet" href="{{ asset('admin/css/monthly.css')}}">
-<!-- //calendar -->
 <!-- //font-awesome icons -->
 <script src="{{ asset('admin/js/jquery2.0.3.min.js')}}"></script>
-<script src="{{ asset('admin/js/raphael-min.js')}}"></script>
-<script src="{{ asset('admin/js/morris.js')}}"></script>
 </head>
-<!--header end-->
+<body>
+<div class="log-w3">
+<div class="w3layouts-main">
+	<h2>Parth Charitable Trust Admin Panel</h2>
+		<form id="loginform" class="form-vertical" method="post"action="{{url ('admin/login')}}">
+		{{csrf_field()}}
+			<input type="email" class="ggg" name="email" placeholder="E-MAIL" required="">
+			<input type="password" class="ggg" name="password" placeholder="PASSWORD" required="">
+				<div class="clearfix"></div>
+				<input type="submit" value="Login" name="login">
+		</form>
+		
+</div>
+</div>
+<script src="{{ asset('admin/js/bootstrap.js')}}"></script>
+<script src="{{ asset('admin/js/jquery.dcjqaccordion.2.7.js')}}"></script>
+<script src="{{ asset('admin/js/scripts.js')}}"></script>
+<script src="{{ asset('admin/js/jquery.slimscroll.js')}}"></script>
+<script src="{{ asset('admin/js/jquery.nicescroll.js')}}"></script>
+<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/flot-chart/excanvas.min.js"></script><![endif]-->
+<script src="{{ asset('admin/js/jquery.scrollTo.js')}}"></script>
+</body>
+</html>

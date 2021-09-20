@@ -1,9 +1,4 @@
 <!-- footer -->
-<div class="footer" style="margin-top: 226px;">
-			<div class="wthree-copyright">
-			  <p>© 2021 Engineering Destination . All rights reserved | Design by <a href="#">Design & Developed By Gnarium Iqnovatives Pvt. Ltd.</a></p>
-			</div>
-		  </div>
   <!-- / footer -->
 </section>
 <!--main content end-->
