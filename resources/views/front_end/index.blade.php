@@ -618,20 +618,20 @@
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="card mb-2">
-                                            <img class="card-img-top" src="{{ asset('front_end/images/fitness 1.jpeg')}}" alt="Card image cap">
+                                            <img class="card-img-top" src="{{ asset('front_end/images/fitness1.jpeg')}}" alt="Card image cap">
                                         </div>
                                     </div>
 
                                     <div class="col-md-4">
                                         <div class="card mb-2">
-                                            <img class="card-img-top" src="{{ asset('front_end/images/fitness 2.jpeg')}}" alt="Card image cap" style="height:390px;">
+                                            <img class="card-img-top" src="{{ asset('front_end/images/fitness2.jpeg')}}" alt="Card image cap" style="height:390px;">
                                             
                                         </div>
                                     </div>
 
                                     <div class="col-md-4">
                                         <div class="card mb-2">
-                                            <img class="card-img-top" src="{{ asset('front_end/images/fitness 5.jpeg')}}" alt="Card image cap" style="height:390px;">
+                                            <img class="card-img-top" src="{{ asset('front_end/images/fitness5.jpeg')}}" alt="Card image cap" style="height:390px;">
                                             
                                         </div>
                                     </div>
@@ -645,7 +645,7 @@
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="card mb-2">
-                                            <img class="card-img-top" src="{{ asset('front_end/images/fitness 4.jpeg')}}" alt="Card image cap" style="height:390px;">
+                                            <img class="card-img-top" src="{{ asset('front_end/images/fitness4.jpeg')}}" alt="Card image cap" style="height:390px;">
                                             
                                         </div>
                                     </div>
