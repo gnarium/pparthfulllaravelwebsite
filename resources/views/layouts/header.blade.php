@@ -2,7 +2,6 @@
 <html class="no-js" lang="en">
 
 
-<!-- Mirrored from thepixelcurve.com/html/helpgrove/helpgrove/index-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 02 Dec 2020 10:34:18 GMT -->
 <head>
     <meta charset="utf-8">
 
@@ -62,7 +61,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg">
                     <a class="navbar-brand" href="/">
-                        <img src="{{ asset('front_end/images/looo.jpg')}}" alt="logo" style="height: 80px;width: 80px">
+                        <img src="{{ asset('front_end/images/looo.jpeg')}}" alt="logo" style="height: 80px;width: 80px">
                     </a> <!-- logo -->
 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
