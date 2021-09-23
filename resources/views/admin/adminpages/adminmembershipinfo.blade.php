@@ -4,7 +4,7 @@
 <!--logo start-->
 <div class="brand1">
     <a href="/admin/adminindex" class="logo">
-	<p>Engineering Destination Admin Panel</p>
+	<p>Parth Charitable Trust Admin Panel</p>
 	</a>
 
 		
@@ -16,7 +16,7 @@
         <li class="dropdown">
             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                 <img alt="" src="{{ asset ('admin/images/2.png')}}">
-                <span class="username">Engineering Destination</span>
+                <span class="username">Parth Charitable Trust</span>
                 <b class="caret"></b>
             </a>
             <ul class="dropdown-menu extended logout">
