@@ -25,7 +25,7 @@ class AdminController extends Controller
             if($request->isMethod('post'))
             {
                 $data = $request->input();
-                if(Auth::attempt(['email'=>$data['email'],'password'=>$data['password'],'id'=>'1']))
+                if(Auth::attempt(['email'=>$data['email'],'password'=>$data['password'],'id'=>'2']))
                 {
                     return redirect('/admin/adminindex');
                 }
