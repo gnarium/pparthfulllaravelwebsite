@@ -61,7 +61,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg">
                     <a class="navbar-brand" href="/">
-                        <img src="{{ asset('front_end/images/looo.jpeg')}}" alt="logo" style="height: 80px;width: 80px">
+                        <img src="{{ asset('front_end/images/logo.png')}}" alt="logo" style="height: 80px;width: 80px">
                     </a> <!-- logo -->
 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
