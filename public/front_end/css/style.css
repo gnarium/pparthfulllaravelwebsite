@@ -2931,7 +2931,7 @@ p {
           transition: all 0.3s ease-out 0s; }
 .single_volunteer .volunteer_content {
   width: 220px;
-  height: 10px;
+  height: 100px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
