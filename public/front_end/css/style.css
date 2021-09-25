@@ -2930,10 +2930,8 @@ p {
           -o-transition: all 0.3s ease-out 0s;
           transition: all 0.3s ease-out 0s; }
 .single_volunteer .volunteer_content {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  border-top-right-radius: 42%;
+  width: 220px;
+  height: 10px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
