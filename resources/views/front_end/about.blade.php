@@ -6,8 +6,8 @@
                     <div class="page_banner_content text-center">
                         <h3 class="page_title">About us</h3>
                         <ul class="breadcrumb justify-content-center">
-                            <li><a href="#">Home</a></li>
-                            <li><a class="active" href="#">About</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a class="active" href="/about">About</a></li>
                         </ul>
                     </div> <!-- page banner content -->
                 </div>
@@ -20,7 +20,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-sm-12">
                         <div class="image_1">
-                            <img src="{{ asset('front_end/images/about.jpg')}}" style="height:700px;" alt="about">
+                            <img src="{{ asset('front_end/images/about.jpg')}}" style=height:700px alt="about">
                         </div>
                         
                      <!-- about image -->
@@ -58,40 +58,27 @@
                     <div class="single_volunteer mt-30 volunteer_color_1">
                         <div class="volunteer_image">
                             <img src="{{ asset('front_end/images/Anita Singh Bisen Ji Founder.jpg')}}" alt="Volunteer">
-                            <div class="volunteer_social">
-                                <ul class="social">
-                                    <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div> <!-- volunteer social -->
+                            <!-- volunteer social -->
                         </div>
                         <div class="volunteer_content d-flex align-items-center justify-content-center">
                             <div class="content_wrapper">
-                                <h5 class="volunteer_name"><a href="#">Maria Noor</a></h5>
-                                <p>Volunteer</p>
+                                <h5 class="volunteer_name" style=text-align:left><a href="#">Anita Singh Rajput Ji</a></h5>
+                                <p>Founder</p>
                             </div>
                         </div>
+                        
                     </div> <!-- single volunteer -->
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_volunteer mt-30 volunteer_color_2">
                         <div class="volunteer_image">
                             <img src="{{ asset('front_end/images/pooja singh Chandel Sachiv( Secretary).jpg')}}" alt="Volunteer">
-                            <div class="volunteer_social">
-                                <ul class="social">
-                                    <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div> <!-- volunteer social -->
+                             <!-- volunteer social -->
                         </div>
                         <div class="volunteer_content d-flex align-items-center justify-content-center">
                             <div class="content_wrapper">
-                                <h5 class="volunteer_name"><a href="#">Kiara Roy</a></h5>
-                                <p>Volunteer</p>
+                                <h5 class="volunteer_name"><a href="#">pooja singh Chandel</a></h5>
+                                <p>Sachiv( Secretary)</p>
                             </div>
                         </div>
                     </div> <!-- single volunteer -->
@@ -100,19 +87,12 @@
                     <div class="single_volunteer mt-30 volunteer_color_3">
                         <div class="volunteer_image">
                             <img src="{{ asset('front_end/images/Shalini Pandey Vice President.jpg')}}" alt="Volunteer">
-                            <div class="volunteer_social">
-                                <ul class="social">
-                                    <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div> <!-- volunteer social -->
+                             <!-- volunteer social -->
                         </div>
                         <div class="volunteer_content d-flex align-items-center justify-content-center">
                             <div class="content_wrapper">
-                                <h5 class="volunteer_name"><a href="#">Adams Hobes</a></h5>
-                                <p>Volunteer</p>
+                                <h5 class="volunteer_name"><a href="#">Shalini Pandey</a></h5>
+                                <p>Vice President</p>
                             </div>
                         </div>
                     </div> <!-- single volunteer -->
@@ -121,42 +101,28 @@
                     <div class="single_volunteer mt-30 volunteer_color_4">
                         <div class="volunteer_image">
                             <img src="{{ asset('front_end/images/Manorama Ji Chief Secreatory.jpg')}}" alt="Volunteer">
-                            <div class="volunteer_social">
-                                <ul class="social">
-                                    <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div> <!-- volunteer social -->
+                             <!-- volunteer social -->
                         </div>
                         <div class="volunteer_content d-flex align-items-center justify-content-center">
                             <div class="content_wrapper">
-                                <h5 class="volunteer_name"><a href="#">Adams Hobes</a></h5>
-                                <p>Volunteer</p>
+                                <h5 class="volunteer_name"><a href="#">Manorama Ji</a></h5>
+                                <p>Chief Secreatory</p>
                             </div>
                         </div>
                     </div> <!-- single volunteer -->
                 </div>
             </div>
-                <div class="row" style="text-align:center;">
+                <div class="row" >
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_volunteer mt-30 volunteer_color_1">
                         <div class="volunteer_image">
                             <img src="{{ asset('front_end/images/Pooja Singh.jpg')}}" alt="Volunteer">
-                            <div class="volunteer_social">
-                                <ul class="social">
-                                    <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div> <!-- volunteer social -->
+                             <!-- volunteer social -->
                         </div>
                         <div class="volunteer_content d-flex align-items-center justify-content-center">
                             <div class="content_wrapper">
-                                <h5 class="volunteer_name"><a href="#">Maria Noor</a></h5>
-                                <p>Volunteer</p>
+                                <h5 class="volunteer_name"><a href="#">Pooja Singh</a></h5>
+                                <p>Treasurer</p>
                             </div>
                         </div>
                     </div> <!-- single volunteer -->
@@ -165,19 +131,12 @@
                     <div class="single_volunteer mt-30 volunteer_color_2">
                         <div class="volunteer_image">
                             <img src="{{ asset('front_end/images/kajal.jpeg')}}" alt="Volunteer">
-                            <div class="volunteer_social">
-                                <ul class="social">
-                                    <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div> <!-- volunteer social -->
+                             <!-- volunteer social -->
                         </div>
                         <div class="volunteer_content d-flex align-items-center justify-content-center">
                             <div class="content_wrapper">
-                                <h5 class="volunteer_name"><a href="#">Kiara Roy</a></h5>
-                                <p>Volunteer</p>
+                                <h5 class="volunteer_name"><a href="#">Kajal Singh</a></h5>
+                                <p>Vice President</p>
                             </div>
                         </div>
                     </div> <!-- single volunteer -->
@@ -186,19 +145,12 @@
                     <div class="single_volunteer mt-30 volunteer_color_3">
                         <div class="volunteer_image">
                             <img src="{{ asset('front_end/images/Sunil Singh Chief Incharge.jpg')}}" alt="Volunteer">
-                            <div class="volunteer_social">
-                                <ul class="social">
-                                    <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div> <!-- volunteer social -->
+                             <!-- volunteer social -->
                         </div>
                         <div class="volunteer_content d-flex align-items-center justify-content-center">
                             <div class="content_wrapper">
-                                <h5 class="volunteer_name"><a href="#">Adams Hobes</a></h5>
-                                <p>Volunteer</p>
+                                <h5 class="volunteer_name"><a href="#">Sunil Singh </a></h5>
+                                <p>Chief Incharge</p>
                             </div>
                         </div>
                     </div> <!-- single volunteer -->
@@ -219,7 +171,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="video_content_3 mt-45">
-                        <h4 class="video_title">We served more then 80k+ peoples</h4>
+                        <h4 class="video_title">We served more then 50k+ peoples</h4>
                         <p>Parth Charity Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches and concerned citizens join. There will be a day–in our lifetime–when we get to celebrate.</p>
                         <a href="#" class="main-btn"><i class="fa fa-heart"></i> Donate  Now</a>
                     </div> <!-- about content -->
