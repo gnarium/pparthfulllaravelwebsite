@@ -738,7 +738,40 @@
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
+    <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <h3 class="title">Follow Us On Facebook</h3>
+                        <div class="single_volunteer mt-30 volunteer_color_3">
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fparthcharitablesociety%2F&tabs=timeline&width=340&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style=border:none,overflow:hidden scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
 
+                <h3 class="title">Follow Us On Twitter</h3>
+                    <div class="single_volunteer mt-30 volunteer_color_4">
+                        <div class="volunteer_image">
+                        <a class="twitter-timeline" data-width="340" data-height="500" data-theme="dark" href="https://twitter.com/AnitaSi41811963?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-12">
+
+                <h3 class="title">Follow Us On Youtube</h3>
+                    <div class="single_volunteer mt-30 volunteer_color_4">
+                        <div class="volunteer_image">
+
+                        <iframe src="https://www.youtube.com/embed/videoseries?list=0UCnX181u_1jdMFhaxEFA1Y1w/videos" width="340" height="500" style=border:none,overflow:hidden scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    
     <!--====== VOLUNTEER PART ENDS ======-->
     
     
