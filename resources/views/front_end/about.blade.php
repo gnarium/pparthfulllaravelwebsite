@@ -18,13 +18,12 @@
         <div class="services_shape_1" style="background-image: url({{ asset('front_end/images/shape/shape-12.png')}})"></div>
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="about_image mt-50">
+                <div class="col-lg-6 col-sm-12">
                         <div class="image_1">
-                            <img src="{{ asset('front_end/images/about.jpg')}}" alt="about">
+                            <img src="{{ asset('front_end/images/about.jpg')}}" style="height:700px;" alt="about">
                         </div>
                         
-                    </div> <!-- about image -->
+                     <!-- about image -->
                 </div>
                 <div class="col-lg-6">
                     <div class="about_content_3 mt-45">
