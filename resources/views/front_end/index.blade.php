@@ -547,11 +547,17 @@
                     <div>A healthy brain resides under a healthy body as the saying says parth charitable society
                     Organising yoga , bicycle rally ,dance competition  etc events and making people aware about it’s benefits for each category of people .</div>
                 </div>
+                <div class="text-center mb-30">
+                    <h6 class="title" style=text-align:center>Fitness Awareness : Daily Yoga </h6>
+                </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="content_img">
                     <img src="{{ asset('front_end/images/Tree Plantation.jpg')}}" width='100%' height='100%'>
                     <div>No life is possible without trees because  oxygen is essential for all living beings , but people are cutting trees in huge amounts , planting very less of them so our NGO is taking an initiative and planting trees and also organising an awareness program to aware people about its effects.</div>
+                </div>
+                <div class="text-center mb-30">
+                    <h6 class="title"style=text-align:center>Tree Plantation </h6>
                 </div>
             </div>
            
@@ -559,6 +565,9 @@
                 <div class="content_img">
                     <img src="{{ asset('front_end/images/Helping Animals.jpg')}}" width='100%' height='100%'>
                     <div>There are a lot of animals we can see on the roads who have no home and shelter , our ngo has launched a campaign to give something to eat to at least one animal of their locality.</div>
+                </div>
+                <div class="text-center mb-30">
+                    <h6 class="title" style=text-align:center>Helping Animals </h6>
                 </div>
             </div>
            
@@ -572,6 +581,9 @@
                     <img src="{{ asset('front_end/images/Healthcare.jpg')}}" width='100%' height='100%'>
                     <div>Not every person is capable of paying healthcare bills and buying costly medicines , we as a NGO, try to help people who need medications and provide them medications and also generate funds to help them.</div>
                 </div>
+                <div class="text-center mb-30">
+                    <h6 class="title" style=text-align:center>Healthcare</h6>
+                </div>
             </div>
           
             <div class="col-lg-4 col-sm-6">
@@ -579,12 +591,18 @@
                     <img src="{{ asset('front_end/images/Sanitation.jpg')}}" width='100%' height='100%'>
                     <div>As in  India we say “laxmi wahi was karti hai jaha swachta hoti hai ” so our earth is our home and making it clean is every person’s responsibility . Volunteers of our NGO  organise awareness programs from time to time to make people remember their social responsibility.</div>
                 </div>
+                <div class="text-center mb-30">
+                    <h6 class="title" style=text-align:center>Sanitation </h6>
+                </div>
             </div>
             
             <div class="col-lg-4 col-sm-6">
                 <div class="content_img">
                     <img src="{{ asset('front_end/images/Drinking Water.jpg')}}" width='100%' height='100%'>
                     <div>In india in summers we start this campaign first we provide water for birds and animals at our home roofs and at front of our houses , and we also  arrange a “ drinking water point “ so that people who need water can drink from there, we are also running an initiative for cleaning our rivers so that we can drink clean water.</div>
+                </div>
+                <div class="text-center mb-30">
+                    <h6 class="title" style=text-align:center>Drinking Water</h6>
                 </div>
             </div>
             &nbsp;
