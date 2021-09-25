@@ -347,7 +347,7 @@
                                 <input type="text" placeholder="Enter Name" name="name" required>
 
                                 <label for="psw"><b>Contact Number</b></label>
-                                <input type="text" placeholder="Enter Contact Number" name="contactnumber" required>
+                                <input type="text" maxlength="10" minlength="10" placeholder="Enter Contact Number" name="contactnumber" required>
 
                                 <label for="psw"><b>Address</b></label>
                                 <input type="text" placeholder="Enter Address" name="address" required>
