@@ -20,6 +20,7 @@ Route::get('/', function () {
 Route::view('/','front_end/index');
 Route::view('/about','front_end/about');
 
+Route::post('/',[App\Http\Controllers\AdminController::class,'membership_db'])->name('admin');
 
 
 Route::get('gallery',[App\Http\Controllers\AdminController::class,'blogs_data'])->name('admin');
