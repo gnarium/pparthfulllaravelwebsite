@@ -523,17 +523,27 @@
                     <img src="{{ asset('front_end/images/Food distribution.jpg')}}" width='100%' height='100%'>
                     <div>We distribute food packages to people who are in need , especially poor colonies where they only can arrange food for them , only one time in a day .</div>
                 </div>
+                <div class="text-center mb-30">
+                    <h6 class="title" style=text-align:center>Food distribution </h6>
+                </div>
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="content_img">
                     <img src="{{ asset('front_end/images/Empowering Women socially and Economically.jpg')}}" width='100%' height='100%'>
                     <div>Our NGO’s main motto is to help women who are in need of either educational help or financial help. We help them with maximum support we can provide.</div>
                 </div>
+                <div class="text-center mb-30">
+                    <h6 class="title" style=text-align:center>Empowering Women socially and Economically </h6>
+                </div>
+                  
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="content_img">
                     <img src="{{ asset('front_end/images/Child Development And Their Education.jpg')}}" width='100%' height='100%'>
                     <div>We provide books and stationary to children who are not able to go to school, we also arrange weekly teaching hours to teach poor children and organise events like art and craft to increase creativity among them.</div>
+                </div>
+                <div class="text-center mb-30">
+                    <h6 class="title" style=text-align:center>Child Development And Their Education </h6>
                 </div>
             </div>
         </div>
