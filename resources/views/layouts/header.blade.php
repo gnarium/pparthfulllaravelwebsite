@@ -85,11 +85,16 @@
                         </ul>
                     </div> <!-- navbar collapse -->
 
-                    <div class="navbar_btn d-none d-sm-block">
-                        <a class="main-btn" href="#"><i class="fa fa-heart"></i> Donate Now</a>
-                    </div>
+                     <div class="dropdown">
+                          <button class="btn btn-danger" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fa fa-heart"></i> Donate Now
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="font-size:13px; line-height:18px;">
+                            <a class="dropdown-item" href="#"><b>Account Number:</b>38183233025</a>
+                            <a class="dropdown-item" href="#"><b>IFSC Code:</b>SBIN0012830</a>
 
-                </nav> <!-- navbar -->
+                          </div>
+                    </nav> <!-- navbar -->
             </div> <!-- container -->
         </div> <!-- header navbar -->
     </header>
