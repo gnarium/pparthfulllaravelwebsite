@@ -338,6 +338,7 @@
                             <a class="main-btn" href="#" onclick="openForm()"><i class="fa fa-heart"></i> Donate Now</a>
                         </div>
                         <div class="form-popup" id="myForm">
+                			@include('front_end.flash')
                             <form action="/" method="post" class="form-container">
                             {{ csrf_field()}}
                                 <h3>Membership Form</h3>
