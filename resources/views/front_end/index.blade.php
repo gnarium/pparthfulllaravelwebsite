@@ -317,8 +317,7 @@
                         </div>
                         <div class="services_content">
                             <h4 class="services_title"><a href="#">Be a Volunteer</a></h4>
-                            <p>Parth charitable Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches.
- </p>
+                            <p>Your Small Donation Can Make A Change </p>
                         </div>
                         <div class="navbar_btn d-none d-sm-block">
                         <a class="main-btn" href="#"><i class="fa fa-heart"></i> Donate Now</a>
@@ -333,7 +332,7 @@
                         </div>
                         <div class="services_content">
                             <h4 class="services_title"><a href="#">Donate Now</a></h4>
-                            <p>Parth charitable Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches.</p>
+                            <p>Become A Volunteer Of Our Organization And Make A Change By Helping Others.</p>
                         </div>
                         <div class="navbar_btn d-none d-sm-block">
                             <a class="main-btn" href="#" onclick="openForm()"><i class="fa fa-heart"></i> Donate Now</a>
