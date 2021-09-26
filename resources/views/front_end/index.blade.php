@@ -320,7 +320,7 @@
                             <p>Your Small Donation Can Make A Change </p>
                         </div>
                         <div class="navbar_btn d-none d-sm-block">
-                        <a class="main-btn" href="#"><i class="fa fa-heart"></i> Donate Now</a>
+                        <a class="main-btn" href="#"><i class="fa fa-heart"></i> Be A Volunteer</a>
                     </div>
 
                     </div> <!-- single services -->
@@ -378,7 +378,7 @@
                             <p>A gift can give a person smile on his face so give a gift of donation and help them to grow.</p>
                         </div>
                         <div class="navbar_btn d-none d-sm-block">
-                        <a class="main-btn" href="#"><i class="fa fa-heart"></i> Donate Now</a>
+                        <a class="main-btn" href="#"><i class="fa fa-heart"></i> Send Gift</a>
                     </div>
 
                     </div> <!-- single services -->
