@@ -320,7 +320,7 @@
                             <p>A Small Donation Can Make A Change in someone's life. It start from Here.  </p>
                         </div>
                         <div class="navbar_btn d-none d-sm-block">
-                        <a class="main-btn" href="#"><i class="fa fa-heart"></i> Donate Now</a>
+                        <a class="main-btn" href="#"> Donate Now</a>
                     </div>
 
                     </div> <!-- single services -->
@@ -335,7 +335,7 @@
                             <p> A gift can give a person smile on his face so give a gift of donation and help them to grow.</p>
                         </div>
                         <div class="navbar_btn d-none d-sm-block">
-                        <a class="main-btn" href="/contact"><i class="fa fa-heart"></i> Send Gift</a>
+                        <a class="main-btn" href="/contact"> Send Gift</a>
                     </div>
 
                     </div> <!-- single services -->
@@ -350,7 +350,7 @@
                             <p> Become A Volunteer Of Our Organization And Make A Change By Helping Others.</p>
                         </div>
                         <div class="navbar_btn d-none d-sm-block">
-                            <a class="main-btn" href="#" onclick="openForm()"><i class="fa fa-heart"></i> Donate Now</a>
+                            <a class="main-btn" href="#" onclick="openForm()"> Apply Now</a>
                         </div>
                         <div class="form-popup" id="myForm">
                 			@include('front_end.flash')
