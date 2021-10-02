@@ -43,18 +43,7 @@
   <![endif]-->
 
     
-    <!--====== PRELOADER PART START ======-->
-
-     <div id="preloader">
-        <div class="preloader">
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-
-
-    <!--====== PRELOADER PART ENDS ======-->
-
+   
     <!--====== HEADER PART START ======-->
 
     <header class="header_area">
