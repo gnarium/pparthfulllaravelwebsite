@@ -317,7 +317,7 @@
                         </div>
                         <div class="services_content">
                             <h4 class="services_title"><a href="#">  Donate Now </a></h4>
-                            <p>A Small Donation Can Make A Change in some's one life. It start from Here.  </p>
+                            <p>A Small Donation Can Make A Change in someone's life. It start from Here.  </p>
                         </div>
                         <div class="navbar_btn d-none d-sm-block">
                         <a class="main-btn" href="#"><i class="fa fa-heart"></i> Donate Now</a>
