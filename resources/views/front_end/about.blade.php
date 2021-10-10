@@ -1,4 +1,27 @@
 @extends('layouts.main')
+<link rel="shortcut icon" href="{{ asset('front_end/images/favicon.png')}}" type="image/png">
+
+<!--====== Magnific Popup CSS ======-->
+<link rel="stylesheet" href="{{ asset('front_end/css/magnific-popup.css')}}">
+
+<!--====== Animate CSS ======-->
+<link rel="stylesheet" href="{{ asset('front_end/css/animate.css')}}">
+
+<!--====== Slick CSS ======-->
+<link rel="stylesheet" href="{{ asset('front_end/css/slick.css')}}">
+
+<!--====== Font Awesome CSS ======-->
+<link rel="stylesheet" href="{{ asset('front_end/css/font-awesome.min.css')}}">
+
+<!--====== Bootstrap CSS ======-->
+<link rel="stylesheet" href="{{ asset('front_end/css/bootstrap.min.css')}}">
+
+<!--====== Default CSS ======-->
+<link rel="stylesheet" href="{{ asset('front_end/css/default.css')}}">
+
+<!--====== Style CSS ======-->
+<link rel="stylesheet" href="{{ asset('front_end/css/style.css')}}">
+
     <section class="page_banner bg_cover" style="background-image: url({{ asset('front_end/images/slider-1.jpg')}})">
         <div class="container">
             <div class="row">
