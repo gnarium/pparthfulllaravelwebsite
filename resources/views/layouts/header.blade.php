@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="{{ asset('front_end/images/favicon.png')}}" type="image/png">
+    <link rel="shortcut icon" href="{{ asset('front_end/images/logo.png')}}" type="image/png">
 
     <!--====== Magnific Popup CSS ======-->
     <link rel="stylesheet" href="{{ asset('front_end/css/magnific-popup.css')}}">
@@ -34,7 +34,89 @@
 
     <!--====== Style CSS ======-->
     <link rel="stylesheet" href="{{ asset('front_end/css/style.css')}}">
-    
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Set a style for all buttons */
+button {
+  background-color: #8B0000;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+.container {
+  text-align: center;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Modal Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .deletebtn {
+     width: 100%;
+  }
+}
+
+    </style>
 </head>
 
 <body>
@@ -43,7 +125,11 @@
   <![endif]-->
 
     
-   
+    <!--====== PRELOADER PART START ======-->
+
+    
+    <!--====== PRELOADER PART ENDS ======-->
+
     <!--====== HEADER PART START ======-->
 
     <header class="header_area">
@@ -53,7 +139,7 @@
                     <a class="navbar-brand" href="/">
                         <img src="{{ asset('logo.png')}}" alt="logo" style="height: 80px;width: 80px">
                     </a> <!-- logo -->
-
+                    
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="toggler-icon"></span>
                         <span class="toggler-icon"></span>
@@ -61,7 +147,9 @@
                     </button>
 
                     <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
+                       
+                    <ul class="navbar-nav ml-auto">
+                        
                              <li>
                                 <a class="active" href="/">Home </a>
                                 
@@ -72,19 +160,37 @@
                                     
                                     <li><a href="/gallery">Gallery</a></li>
                             <li><a href="/contact">Contact</a></li>
+                            
                         </ul>
-                    </div> <!-- navbar collapse -->
-
-                     <div class="dropdown">
-                          <button class="btn btn-danger" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          <i class="fa fa-heart"></i> Donate Now
-                          </button>
-                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="font-size:13px; line-height:18px;">
-                            <a class="dropdown-item" href="#"><b>Account Number:</b>38183233025</a>
-                            <a class="dropdown-item" href="#"><b>IFSC Code:</b>SBIN0012830</a>
-
-                          </div>
-                    </nav> <!-- navbar -->
+                    </div>
+                    <button onclick="document.getElementById('id01').style.display='block'">Donate Now </button>
+                        <div id="id01" class="modal">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+                        <form class="modal-content">
+                            <div class="container">
+                            <h1 style="text-align:left">Account's Details </h1>
+                            <br/>
+                            <div class="clearfix" style="text-align:left;">
+                                <p><b>Account Number:</b>38183233025</p>
+                                <p><b>IFSC Code:</b>SBIN0012830</p>
+                                <br/>
+                            </div>
+                            </div>
+                        </form>
+                        </div>
+                </nav> <!-- navbar -->
             </div> <!-- container -->
         </div> <!-- header navbar -->
     </header>
+    <script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
