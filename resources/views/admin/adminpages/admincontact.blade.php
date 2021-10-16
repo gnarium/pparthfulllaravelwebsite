@@ -1,4 +1,17 @@
 @extends('layouts.app')
+<meta name="robots" content="noindex">
+
+<link rel="stylesheet" href="{{ asset('admin/css/bootstrap.min.css')}}" >
+<!-- //bootstrap-css -->
+<!-- Custom CSS -->
+<link href="{{ asset('admin/css/style.css')}}" rel='stylesheet' type='text/css' />
+<link href="{{ asset('admin/css/style-responsive.css')}}" rel="stylesheet"/>
+<!-- font CSS -->
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!-- font-awesome icons -->
+<link rel="stylesheet" href="{{ asset('admin/css/font.css')}}" type="text/css"/>
+<link href="{{ asset('admin/css/font-awesome.css')}}" rel="stylesheet"> 
+
 <body>
 <header class="header fixed-top clearfix" style="background-color:#FDC716">
 <!--logo start-->
@@ -15,7 +28,7 @@
     <ul class="nav pull-right top-menu">
         <li class="dropdown">
             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                <img alt="" src="{{ asset ('admin/images/2.png')}}">
+                <img alt="" src="{{ asset('front_end/images/logo.png')}}">
                 <span class="username">Parth Charitable Trust</span>
                 <b class="caret"></b>
             </a>
@@ -37,7 +50,7 @@
         <div class="leftside-navigation">
             <ul class="sidebar-menu" id="nav-accordion">
             <li>
-                    <a class="active" href="/admin/adminindex">
+                    <a class="active" href="/home">
                         <i class="fa fa-dashboard"></i>
                         <span>Dashboard</span>
                     </a>
