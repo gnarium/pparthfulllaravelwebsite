@@ -1,27 +1,7 @@
+<title>About</title>
+<meta name="description" content="The main moto of organization is to help women and empower them to take care of themselves So that one day they each and every woman feels proud.">
+
 @extends('layouts.main')
-<link rel="shortcut icon" href="{{ asset('front_end/images/favicon.png')}}" type="image/png">
-
-<!--====== Magnific Popup CSS ======-->
-<link rel="stylesheet" href="{{ asset('front_end/css/magnific-popup.css')}}">
-
-<!--====== Animate CSS ======-->
-<link rel="stylesheet" href="{{ asset('front_end/css/animate.css')}}">
-
-<!--====== Slick CSS ======-->
-<link rel="stylesheet" href="{{ asset('front_end/css/slick.css')}}">
-
-<!--====== Font Awesome CSS ======-->
-<link rel="stylesheet" href="{{ asset('front_end/css/font-awesome.min.css')}}">
-
-<!--====== Bootstrap CSS ======-->
-<link rel="stylesheet" href="{{ asset('front_end/css/bootstrap.min.css')}}">
-
-<!--====== Default CSS ======-->
-<link rel="stylesheet" href="{{ asset('front_end/css/default.css')}}">
-
-<!--====== Style CSS ======-->
-<link rel="stylesheet" href="{{ asset('front_end/css/style.css')}}">
-
     <section class="page_banner bg_cover" style="background-image: url({{ asset('front_end/images/slider-1.jpg')}})">
         <div class="container">
             <div class="row">
@@ -135,7 +115,8 @@
                     </div> <!-- single volunteer -->
                 </div>
             </div>
-                <div class="row" >
+            <section>
+            <div class="row" >
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_volunteer mt-30 volunteer_color_1">
                         <div class="volunteer_image">
@@ -180,13 +161,14 @@
                 </div>
                             </div>
             </div>
+            </section>
             <section class="video_area_3 pt-80 pb-130 bg_cover" style="background-image: url({{ asset('front_end/images/videobg.jpg')}})">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="video_image mt-50">
                         <img src="{{ asset('front_end/images/video-image.jpg')}}" alt="video">
-                        <a href="https://www.youtube.com/watch?v=WKUjCCOcLFY" class="video-popup">
+                        <a href="https://www.youtube.com/channel/UCnX181u_1jdMFhaxEFA1Y1w">
                             <i class="fa fa-play"></i>
                             <img src="{{ asset('front_end/images/shape/shape-3.png')}}" alt="shape">
                         </a>
@@ -195,7 +177,7 @@
                 <div class="col-lg-6">
                     <div class="video_content_3 mt-45">
                         <h4 class="video_title">We served more then 50k+ peoples</h4>
-                        <p>Parth Charity Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches and concerned citizens join. There will be a day–in our lifetime–when we get to celebrate.</p>
+                        <p>Parth Charitable Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches and concerned citizens join. There will be a day–in our lifetime–when we get to celebrate.</p>
                         <a href="#" class="main-btn"><i class="fa fa-heart"></i> Donate  Now</a>
                     </div> <!-- about content -->
                 </div>
