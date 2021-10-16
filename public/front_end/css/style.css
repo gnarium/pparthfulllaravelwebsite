@@ -844,6 +844,7 @@ p {
         -o-transform: translateY(-50%);
         transform: translateY(-50%);
     }
+    
 }
 
 @media (max-width: 767px) {
