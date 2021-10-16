@@ -1,27 +1,29 @@
+<title>Parth Charitable Society</title>
+<meta name="description" content="We are working hard by helping people to make them smile in their tough times , let's get connected together in this journey to help many more">
 @extends('layouts.main')
-   <link rel="shortcut icon" href="{{ asset('front_end/images/favicon.png')}}" type="image/png">
+<link rel="shortcut icon" href="{{ asset('front_end/images/favicon.png')}}" type="image/png">
 
-    <!--====== Magnific Popup CSS ======-->
-    <link rel="stylesheet" href="{{ asset('front_end/css/magnific-popup.css')}}">
+<!--====== Magnific Popup CSS ======-->
+<link rel="stylesheet" href="{{ asset('front_end/css/magnific-popup.css')}}">
 
-    <!--====== Animate CSS ======-->
-    <link rel="stylesheet" href="{{ asset('front_end/css/animate.css')}}">
+<!--====== Animate CSS ======-->
+<link rel="stylesheet" href="{{ asset('front_end/css/animate.css')}}">
 
-    <!--====== Slick CSS ======-->
-    <link rel="stylesheet" href="{{ asset('front_end/css/slick.css')}}">
+<!--====== Slick CSS ======-->
+<link rel="stylesheet" href="{{ asset('front_end/css/slick.css')}}">
 
-    <!--====== Font Awesome CSS ======-->
-    <link rel="stylesheet" href="{{ asset('front_end/css/font-awesome.min.css')}}">
+<!--====== Font Awesome CSS ======-->
+<link rel="stylesheet" href="{{ asset('front_end/css/font-awesome.min.css')}}">
 
-    <!--====== Bootstrap CSS ======-->
-    <link rel="stylesheet" href="{{ asset('front_end/css/bootstrap.min.css')}}">
+<!--====== Bootstrap CSS ======-->
+<link rel="stylesheet" href="{{ asset('front_end/css/bootstrap.min.css')}}">
 
-    <!--====== Default CSS ======-->
-    <link rel="stylesheet" href="{{ asset('front_end/css/default.css')}}">
+<!--====== Default CSS ======-->
+<link rel="stylesheet" href="{{ asset('front_end/css/default.css')}}">
 
-    <!--====== Style CSS ======-->
-    <link rel="stylesheet" href="{{ asset('front_end/css/style.css')}}">
- 
+<!--====== Style CSS ======-->
+<link rel="stylesheet" href="{{ asset('front_end/css/style.css')}}">
+
 <style>
     
 /*-----------------   New Productes    ------------------*/
@@ -301,6 +303,50 @@
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 </style>
 
     <!--====== SLIDER PART START ======-->
@@ -336,29 +382,31 @@
                 <div class="col-lg-4">
                     <div class="single_services text-center services_1">
                         <div class="services_icon">
-                            <img src="{{ asset('front_end/images/s-icon-1.png')}}" alt="icon">
+                            <img src="{{ asset('front_end/images/s-icon-1.png')}}" alt="icon" class="wd_40">
                         </div>
                         <div class="services_content">
-                            <h4 class="services_title"><a href="#">  Donate Now </a></h4>
-                            <p>A Small Donation Can Make A Change in someone's life. It start from Here.  </p>
+                            <h4 class="services_title"><a href="#">Donate Now</a></h4>
+                            <p>A Small Donation Can Make A Change in someone's life. It start from Here. </p>
                         </div>
-                        <div class="navbar_btn d-none d-sm-block">
-                        <a class="main-btn" href="#"> Donate Now</a>
+                        <div class="navbar_btn  d-sm-block" style="width:100%;">
+                            <button id="myBtn">Donate Now </button>
+                                <div id="myModal" class="modal">
+                                    
+                                </div>
+                            </div>
+                        </div> 
                     </div>
-
-                    </div> <!-- single services -->
-                </div>
-                <div class="col-lg-4">
+                    <div class="col-lg-4">
                     <div class="single_services text-center services_3">
                         <div class="services_icon">
-                            <img src="{{ asset('front_end/images/s-icon-3.png')}}" alt="icon">
+                            <img src="{{ asset('front_end/images/s-icon-3.png')}}" alt="icon" class="wd_40">
                         </div>
                         <div class="services_content">
                             <h4 class="services_title"><a href="#">Send Gift</a></h4>
-                            <p> A gift can give a person smile on his face so give a gift of donation and help them to grow.</p>
+                            <p>A gift can give a person smile on his face so give a gift of donation and help them to grow .</p>
                         </div>
-                        <div class="navbar_btn d-none d-sm-block">
-                        <a class="main-btn" href="/contact"> Send Gift</a>
+                        <div class="navbar_btn2 d-sm-block">
+                        <a class="main-btn" href="#"><i class="fa fa-heart"></i> Send Gift</a>
                     </div>
 
                     </div> <!-- single services -->
@@ -366,17 +414,16 @@
                 <div class="col-lg-4">
                     <div class="single_services active_2 text-center services_2">
                         <div class="services_icon">
-                            <img src="{{ asset('front_end/images/s-icon-2.png')}}" alt="icon">
+                            <img src="{{ asset('front_end/images/s-icon-2.png')}}" alt="icon" class="wd_40">
                         </div>
                         <div class="services_content">
-                            <h4 class="services_title"><a href="#"> Be a Volunteer  </a></h4>
-                            <p> Become A Volunteer Of Our Organization And Make A Change By Helping Others.</p>
+                            <h4 class="services_title"><a href="#">Be a Volunteer</a></h4>
+                            <p>Become A Volunteer Of Our Organization And Make A Change By Helping Others </p>
                         </div>
-                        <div class="navbar_btn d-none d-sm-block">
-                            <a class="main-btn" href="#" onclick="openForm()"> Apply Now</a>
+                        <div class="navbar_btn1  d-sm-block">
+                            <a class="main-btn" href="#" onclick="openForm()"><i class="fa fa-heart"></i> Apply Now</a>
                         </div>
                         <div class="form-popup" id="myForm">
-                			@include('front_end.flash')
                             <form action="/" method="post" class="form-container">
                             {{ csrf_field()}}
                                 <h3>Membership Form</h3>
@@ -385,7 +432,7 @@
                                 <input type="text" placeholder="Enter Name" name="name" required>
 
                                 <label for="psw"><b>Contact Number</b></label>
-                                <input type="text" maxlength="10" minlength="10" placeholder="Enter Contact Number" name="contactnumber" required>
+                                <input type="text" placeholder="Enter Contact Number" name="contactnumber" required>
 
                                 <label for="psw"><b>Address</b></label>
                                 <input type="text" placeholder="Enter Address" name="address" required>
@@ -398,6 +445,7 @@
                         <script>
                         function openForm() {
                         document.getElementById("myForm").style.display = "block";
+                    
                         }
 
                         function closeForm() {
@@ -422,7 +470,7 @@
                     <div class="col-lg-12">
                         <div class="section_title text-center pb-30">
                             <img src="{{ asset('front_end/images/section_icon.png')}}" alt="Icon">
-                            <h3 class="title">Featured Camapaign</h3>
+                            <h3 class="title">Our Running Camapaign</h3>
                         </div> <!-- section title -->
                     </div>
                 </div> <!-- row -->
@@ -530,11 +578,11 @@
     </section>
 
     <!--====== CAMPAING DONER PART ENDS ======-->
-    <div className="container">
-        <div className="row">
-            <div className="col-lg-12">
-                <div className="section_title text-center pb-30">
-                    <h3 className="title" style="text-align:center;">Our Running Camapaign</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section_title text-center pb-30">
+                    <h3 class="title" style="text-align:center;">Our Running Camapaign</h3>
                 </div>
             </div>
         </div>
@@ -559,7 +607,7 @@
                 <div class="text-center mb-30">
                     <h6 class="title" style=text-align:center>Empowering Women socially and Economically </h6>
                 </div>
-                  
+                            
             </div>
             <div class="col-lg-4 col-sm-6">
                 <div class="content_img">
@@ -671,20 +719,20 @@
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="card mb-2">
-                                            <img class="card-img-top" src="{{ asset('front_end/images/Fitness1.jpeg')}}" alt="Card image cap">
+                                            <img class="card-img-top" src="{{ asset('front_end/images/fitness 1.jpeg')}}" alt="Card image cap">
                                         </div>
                                     </div>
 
                                     <div class="col-md-4">
                                         <div class="card mb-2">
-                                            <img class="card-img-top" src="{{ asset('front_end/images/Fitness2.jpeg')}}" alt="Card image cap" style="height:390px;">
+                                            <img class="card-img-top" src="{{ asset('front_end/images/fitness 2.jpeg')}}" alt="Card image cap" style="height:390px;">
                                             
                                         </div>
                                     </div>
 
                                     <div class="col-md-4">
                                         <div class="card mb-2">
-                                            <img class="card-img-top" src="{{ asset('front_end/images/Fitness5.jpeg')}}" alt="Card image cap" style="height:390px;">
+                                            <img class="card-img-top" src="{{ asset('front_end/images/fitness 5.jpeg')}}" alt="Card image cap" style="height:390px;">
                                             
                                         </div>
                                     </div>
@@ -698,7 +746,7 @@
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="card mb-2">
-                                            <img class="card-img-top" src="{{ asset('front_end/images/Fitness4.jpeg')}}" alt="Card image cap" style="height:390px;">
+                                            <img class="card-img-top" src="{{ asset('front_end/images/fitness 4.jpeg')}}" alt="Card image cap" style="height:390px;">
                                             
                                         </div>
                                     </div>
@@ -753,7 +801,7 @@
                         <div class="volunteer_content d-flex align-items-center justify-content-center">
                             <div class="content_wrapper">
                                 <h5 class="volunteer_name"><a href="#">S P Singh</a></h5>
-                               
+                                <p>Volunteer</p>
                             </div>
                         </div>
                     </div> <!-- single volunteer -->
@@ -766,8 +814,8 @@
                         </div>
                         <div class="volunteer_content d-flex align-items-center justify-content-center">
                             <div class="content_wrapper">
-                                <h5 class="volunteer_name"><a href="#">Bhagwan Singh</a></h5>
-                               
+                                <h5 class="volunteer_name"><a href="#">Kiara Roy</a></h5>
+                                <p>Volunteer</p>
                             </div>
                         </div>
                     </div> <!-- single volunteer -->
@@ -780,8 +828,8 @@
                         </div>
                         <div class="volunteer_content d-flex align-items-center justify-content-center">
                             <div class="content_wrapper">
-                                <h5 class="volunteer_name"><a href="#">Dr Archana Singh</a></h5>
-                                
+                                <h5 class="volunteer_name"><a href="#">Adams Hobes</a></h5>
+                                <p>Volunteer</p>
                             </div>
                         </div>
                     </div> <!-- single volunteer -->
@@ -790,15 +838,17 @@
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
-    <div class="container">
+
+    <!--====== VOLUNTEER PART ENDS ======-->
+        <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-6 col-sm-12">
                     <h3 class="title">Follow Us On Facebook</h3>
                         <div class="single_volunteer mt-30 volunteer_color_3">
                             <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fparthcharitablesociety%2F&tabs=timeline&width=340&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style=border:none,overflow:hidden scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                         </div>
                 </div>
-                <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-6 col-sm-12">
 
                 <h3 class="title">Follow Us On Twitter</h3>
                     <div class="single_volunteer mt-30 volunteer_color_4">
@@ -807,25 +857,8 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-4 col-sm-12">
-
-                <h3 class="title">Follow Us On Youtube</h3>
-                    <div class="single_volunteer mt-30 volunteer_color_4">
-                        <div class="volunteer_image">
-
-                        <iframe src="https://www.youtube.com/embed/videoseries?list=0UCnX181u_1jdMFhaxEFA1Y1w/videos" width="340" height="500" style=border:none,overflow:hidden scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-
-                        </div>
-                    </div>
-                </div>
-
-                
             </div>
         </div>
-    
-    <!--====== VOLUNTEER PART ENDS ======-->
-    
     
     <!--====== GO TO TOP PART START ======-->
     
@@ -839,4 +872,30 @@
             </div>
         </div>
     </div>
-    
+    <script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
