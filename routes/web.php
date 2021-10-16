@@ -34,10 +34,11 @@ Route::post('contact',[App\Http\Controllers\AdminController::class,'contact_db']
 Route::match(['get','post'],'/admin/login',[App\Http\Controllers\AdminController::class,'login'])->name('admin');
 
 Auth::routes();
-Route::get('/admin/adminindex',[App\Http\Controllers\AdminController::class,'adminindex'])->name('admin');
-
 
 Route::group(['namespace'=>'Admin','middleware'=>['auth'],],function(){
+    
+Route::get('/admin/adminindex',[App\Http\Controllers\AdminController::class,'adminindex'])->name('admin');
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/admin/adminpages/addgallery',[App\Http\Controllers\AdminController::class,'blogs']);
 Route::post('/admin/adminpages/addgallery',[App\Http\Controllers\AdminController::class,'blogs_db']);
