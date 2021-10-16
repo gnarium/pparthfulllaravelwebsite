@@ -1,4 +1,17 @@
 @extends ('admin.adminlayouts.adminmain')
+<meta name="robots" content="noindex">
+
+<link rel="stylesheet" href="{{ asset('admin/css/bootstrap.min.css')}}" >
+<!-- //bootstrap-css -->
+<!-- Custom CSS -->
+<link href="{{ asset('admin/css/style.css')}}" rel='stylesheet' type='text/css' />
+<link href="{{ asset('admin/css/style-responsive.css')}}" rel="stylesheet"/>
+<!-- font CSS -->
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!-- font-awesome icons -->
+<link rel="stylesheet" href="{{ asset('admin/css/font.css')}}" type="text/css"/>
+<link href="{{ asset('admin/css/font-awesome.css')}}" rel="stylesheet"> 
+
 <body>
 <header class="header fixed-top clearfix" style="background-color:#FDC716">
 <!--logo start-->
@@ -19,7 +32,7 @@
          --><!-- user login dropdown start-->
         <li class="dropdown">
             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                <img alt="" src="images/2.png">
+                <img alt="" src="{{ asset('front_end/images/logo.png')}}">
                 <span class="username">Parth Charitable Trust</span>
                 <b class="caret"></b>
             </a>
@@ -43,7 +56,7 @@
         <div class="leftside-navigation">
             <ul class="sidebar-menu" id="nav-accordion">
                 <li>
-                    <a class="active" href="/admin/adminindex">
+                    <a class="active" href="/home">
                         <i class="fa fa-dashboard"></i>
                         <span>Dashboard</span>
                     </a>
@@ -78,8 +91,12 @@
     </div>
 </aside>
 </section>
-<div class="footer" style="margin-top: 600px;">
+<section class="page_banner bg_cover">
+    <img src="{{ asset('front_end/images/slider-1.jpg')}}" style="width:100%;"/>
+<div class="footer">
 			<div class="wthree-copyright">
 			  <p>© 2021 Parth Charitable Trust . All rights reserved | Design by <a href="#">Design & Developed By Gnarium Iqnovatives Pvt. Ltd.</a></p>
 			</div>
 		  </div>
+
+</section>
