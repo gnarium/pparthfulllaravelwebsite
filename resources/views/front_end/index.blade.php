@@ -406,7 +406,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
                             <p>A gift can give a person smile on his face so give a gift of donation and help them to grow .</p>
                         </div>
                         <div class="navbar_btn2 d-sm-block">
-                        <a class="main-btn" href="#"><i class="fa fa-heart"></i> Send Gift</a>
+                        <a class="main-btn" href="/contact"><i class="fa fa-heart"></i> Send Gift</a>
                     </div>
 
                     </div> <!-- single services -->
