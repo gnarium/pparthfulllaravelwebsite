@@ -35,7 +35,9 @@ Route::match(['get','post'],'/admin/login',[App\Http\Controllers\AdminController
 
 Auth::routes();
 Route::get('/admin/adminindex',[App\Http\Controllers\AdminController::class,'adminindex'])->name('admin');
-    
+
+
+Route::group(['namespace'=>'Admin','middleware'=>['auth'],],function(){
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/admin/adminpages/addgallery',[App\Http\Controllers\AdminController::class,'blogs']);
 Route::post('/admin/adminpages/addgallery',[App\Http\Controllers\AdminController::class,'blogs_db']);
@@ -47,3 +49,4 @@ Route::get('edit/{id}',[App\Http\Controllers\AdminController::class,'editBlog'])
 Route::put('update/{id}',[App\Http\Controllers\AdminController::class,'updateBlog'])->name('adminBlogUpdate');
 
 Route::delete('admin/destroy/{id}',[App\Http\Controllers\AdminController::class,'deleteBlog'])->name('adminBlogDestroy');
+});
