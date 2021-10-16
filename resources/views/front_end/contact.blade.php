@@ -1,27 +1,7 @@
+<title>Contact Us</title>
+<meta name="description" content="For more info about our organization contact us on +91 7007688968 or reach us by email at parthcharity@gmail.com">
+
 @extends('layouts.main')
-<link rel="shortcut icon" href="{{ asset('front_end/images/favicon.png')}}" type="image/png">
-
-<!--====== Magnific Popup CSS ======-->
-<link rel="stylesheet" href="{{ asset('front_end/css/magnific-popup.css')}}">
-
-<!--====== Animate CSS ======-->
-<link rel="stylesheet" href="{{ asset('front_end/css/animate.css')}}">
-
-<!--====== Slick CSS ======-->
-<link rel="stylesheet" href="{{ asset('front_end/css/slick.css')}}">
-
-<!--====== Font Awesome CSS ======-->
-<link rel="stylesheet" href="{{ asset('front_end/css/font-awesome.min.css')}}">
-
-<!--====== Bootstrap CSS ======-->
-<link rel="stylesheet" href="{{ asset('front_end/css/bootstrap.min.css')}}">
-
-<!--====== Default CSS ======-->
-<link rel="stylesheet" href="{{ asset('front_end/css/default.css')}}">
-
-<!--====== Style CSS ======-->
-<link rel="stylesheet" href="{{ asset('front_end/css/style.css')}}">
-
 <section class="page_banner bg_cover" style="background-image: url({{ asset('front_end/images/slider-1.jpg')}})">
         <div class="container">
             <div class="row">
@@ -123,13 +103,21 @@
                                     </div>
                                 </div> <!-- single info -->
                             </li>
+                            <li>
+                                <div class="single_info d-flex align-items-center mt-30">
+                                    
+                                    <div class="info_content media-body">
+                                        <p style="text-align:left;">A small Donation can make a change</p>
+                                        <br/>
+                                        <p style="font-weight:700; text-align:left;">Account No :38183233025</p>
+                                        <br/>
+                                        <p style="font-weight:700; text-align:left;">IFSC :SBIN0012830</p>
+                                    </div>
+                                </div> <!-- single info -->
+                            </li>
                         </ul>
                     </div> <!-- contact info -->
-                    <div class="contact_map mt-50">
-                        <div class="gmap_canvas">                            
-                            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Mission%20District%2C%20San%20Francisco%2C%20CA%2C%20USA&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                        </div>
-                    </div> <!-- contact map -->
+                    
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
