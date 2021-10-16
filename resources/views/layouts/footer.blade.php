@@ -63,7 +63,7 @@
                 <div className="row">
                     <div className="col-lg-6 col-md-6 col-sm-12">
                         <div class="copyright" >
-                            <a href="https://www.gnariumiqnovative.com" style="color:#ffffff;"><p>Copyright &copy; Parth Charitable Trust 2021.Designed & Developed By Gnarium Iqnovative Pvt. Ltd.</p></a>
+                            <a href="https://www.gnariumiqnovative.com"><p>Copyright &copy; Parth Charitable Trust 2021.Designed & Developed By Gnarium Iqnovative Pvt. Ltd.</p></a>
                         </div>
                          <!-- copyright -->
                     </div>
