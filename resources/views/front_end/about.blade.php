@@ -178,7 +178,7 @@
                     <div class="video_content_3 mt-45">
                         <h4 class="video_title">We served more then 50k+ peoples</h4>
                         <p>Parth Charitable Society is a nonproﬁt organization supported by community leaders, corporate sponsors, churches and concerned citizens join. There will be a day–in our lifetime–when we get to celebrate.</p>
-                        <a href="#" class="main-btn"><i class="fa fa-heart"></i> Donate  Now</a>
+                        <a href="/contact" class="main-btn"><i class="fa fa-heart"></i> Donate  Now</a>
                     </div> <!-- about content -->
                 </div>
             </div> <!-- row -->
