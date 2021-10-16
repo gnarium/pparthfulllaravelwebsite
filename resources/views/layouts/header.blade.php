@@ -40,7 +40,7 @@
 
 /* Set a style for all buttons */
 button {
-border-radies:10px;
+border-radius: 10px;
   background-color: #F86048;
   color: white;
   padding: 10px 10px;
