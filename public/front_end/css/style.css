@@ -837,7 +837,7 @@ p {
     .navbar_btn {
         position: absolute;
         top: 92%;
-        right: 70px;
+        right: 0px;
         -webkit-transform: translateY(-50%);
         -moz-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
