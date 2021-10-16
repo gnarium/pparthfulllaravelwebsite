@@ -836,7 +836,7 @@ p {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .navbar_btn {
         position: absolute;
-        top: 50%;
+        top: 92%;
         right: 70px;
         -webkit-transform: translateY(-50%);
         -moz-transform: translateY(-50%);
