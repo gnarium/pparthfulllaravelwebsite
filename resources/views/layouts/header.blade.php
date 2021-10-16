@@ -40,7 +40,7 @@
 
 /* Set a style for all buttons */
 button {
-  background-color: #8B0000;
+  background-color: #01A6AB;
   color: white;
   padding: 10px 10px;
   margin: 8px 0;
