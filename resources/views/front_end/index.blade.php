@@ -801,7 +801,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
                         <div class="volunteer_content d-flex align-items-center justify-content-center">
                             <div class="content_wrapper">
                                 <h5 class="volunteer_name"><a href="#">S P Singh</a></h5>
-                                <p>Volunteer</p>
+                                
                             </div>
                         </div>
                     </div> <!-- single volunteer -->
@@ -815,7 +815,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
                         <div class="volunteer_content d-flex align-items-center justify-content-center">
                             <div class="content_wrapper">
                                 <h5 class="volunteer_name"><a href="#">Bhagwan Singh</a></h5>
-                                <p>Volunteer</p>
+                                
                             </div>
                         </div>
                     </div> <!-- single volunteer -->
@@ -829,7 +829,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
                         <div class="volunteer_content d-flex align-items-center justify-content-center">
                             <div class="content_wrapper">
                                 <h5 class="volunteer_name"><a href="#">Dr Archana Singh</a></h5>
-                                <p>Volunteer</p>
+                                
                             </div>
                         </div>
                     </div> <!-- single volunteer -->
