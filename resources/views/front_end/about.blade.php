@@ -31,7 +31,7 @@
                 <div class="col-lg-6">
                     <div class="about_content_3 mt-45">
                         <h3 class="about_title">About Parth Charitable Society</h3>
-                        <p style=text-align:justify>Parth Charitable Society is founded by Mrs Anita Singh Rajput Ji. She is the top most pillar of her organization . Her positive thinking towards mankind and nature motivated her to form
+                        <p style=text-align:justify>Parth Charitable Society is founded by Mrs Anita Singh Rajput Ji. She is also the winner of “Wheel Smart Shrimati 2005” . She is the top most pillar of her organization . Her positive thinking towards mankind and nature motivated her to form
                         an organization which supports children , women , old age people , disable people and any person who needs support this organization helps them by all means they can.
                         Parth Charitable Society also supports “cleaning air” , gov initiatives like “cleaning rivers” , “safai abhiyan” and many more.</p>
                         <p style=text-align:justify>The main moto of organization is to help women and empower them to take care of themselves 
