@@ -9,7 +9,7 @@
                                <img src="{{ asset('front_end/images/logo.png')}}" alt="logo" style="height: 60px;width: 60px">
                             </a>
                             
-                            <p>Parth Charitable Society is founded by Mrs Anita Singh Bishen Ji. She is the top most pillar of her organization . Her positive thinking towards mankind and nature motivated her to form an organization which supports children , women , old age people , disable people and any person who needs support this organization helps them by all means they can.</p>
+                            <p>Parth Charitable Society is founded by Mrs Anita Singh Rajput Ji. She is the top most pillar of her organization . Her positive thinking towards mankind and nature motivated her to form an organization which supports children , women , old age people , disable people and any person who needs support this organization helps them by all means they can.</p>
                             </div> <!-- footer about -->
                     </div>
                     
@@ -32,6 +32,7 @@
                                     <li><a href="https://in.pinterest.com/anitasinghadhyaksh/_saved/"><i class="fa fa-pinterest" aria-hidden="true"></i>&nbsp;Instagram</a></li>
                                     <li><a href="https://twitter.com/AnitaSi41811963"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;twitter</a></li>
                                     <li><a href="https://www.youtube.com/channel/UCnX181u_1jdMFhaxEFA1Y1w"><i class="fa fa-youtube" aria-hidden="true"></i>&nbsp;Youtube</a></li>
+                                    <li><a href="https://www.kooapp.com/profile/Anita_Singh_RajPoot"><i class="fa fa-kooapp" aria-hidden="true"></i>&nbsp;Kooapp</a></li>
                                     
                                 </ul>
                             </div> <!-- footer link -->
@@ -63,7 +64,7 @@
                 <div className="row">
                     <div className="col-lg-6 col-md-6 col-sm-12">
                         <div class="copyright" >
-                            <p>Copyright &copy; Parth Charitable Trust 2021.</p><p><a href="/">Designed & Developed By Gnarium Iqnovative Pvt. Ltd.</a></p>
+                            <p>Copyright &copy; Parth Charitable Society 2021.</p><p><a href="https://www.gnariumiqnovative.com/">Designed & Developed By Gnarium Iqnovative Pvt. Ltd.</a></p>
                         </div>
                          <!-- copyright -->
                     </div>
