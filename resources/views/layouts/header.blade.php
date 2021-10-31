@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="{{ asset('front_end/images/logo.png')}}" type="image/png">
+    <link rel="shortcut icon" href="{{ asset('front_end/images/logo1.png')}}" type="image/png">
 
     <!--====== Magnific Popup CSS ======-->
     <link rel="stylesheet" href="{{ asset('front_end/css/magnific-popup.css')}}">
