@@ -109,7 +109,7 @@
                         <div class="volunteer_content d-flex align-items-center justify-content-center">
                             <div class="content_wrapper">
                                 <h5 class="volunteer_name"><a href="#">Manorama Ji</a></h5>
-                                <p>Chief Secreatory</p>
+                                <p>Vice President</p>
                             </div>
                         </div>
                     </div> <!-- single volunteer -->
