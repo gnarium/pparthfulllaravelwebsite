@@ -109,7 +109,9 @@
                                     <div class="info_content media-body">
                                         <p style="text-align:left;">A small Donation can make a change</p>
                                         <br/>
-                                        <p style="font-weight:700; text-align:left;">Account No :38183233025</p>
+                                        <p style="font-weight:700; text-align:left;">Bank Name : State Bank Of India</p>
+                                        <br/>
+                                        <p style="font-weight:700; text-align:left;">Account No :40089328010</p>
                                         <br/>
                                         <p style="font-weight:700; text-align:left;">IFSC :SBIN0012830</p>
                                     </div>
