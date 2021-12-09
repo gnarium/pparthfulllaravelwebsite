@@ -111,7 +111,7 @@
                         </header>
                     <div class="panel-body">
                         <div class=" form">
-                            <form class="cmxform form-horizontal" method="post" action="/admin/adminpages/gallery" novalidate="novalidate" enctype="multipart/form-data">
+                            <form class="cmxform form-horizontal" method="post" action="/admin/adminpages/addgallery" novalidate="novalidate" enctype="multipart/form-data">
                                 {{ csrf_field()}}
                                 <div class="form-group ">
                                     <label for="cname" class="control-label col-lg-3">Image Title (required)</label>
