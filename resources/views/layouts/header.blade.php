@@ -172,6 +172,7 @@ hr {
                             <h1 style="text-align:left">Account's Details </h1>
                             <br/>
                             <div class="clearfix" style="text-align:left;">
+                            <p><b>Bank Name:</b>State Bank Of India</p>
                                 <p><b>Account Number:</b>40089328010</p>
                                 <p><b>IFSC Code:</b>SBIN0012830</p>
                                 <br/>
