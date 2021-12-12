@@ -33,7 +33,7 @@
 									<div class="single-blog" style="height:300px;">
 									<a href="{{asset('/upload/admin_profile/')}}/{{$todo1->galleryimage}}">
 										<img src="{{asset('/upload/admin_profile/')}}/{{$todo1->galleryimage}}" alt="{{$todo1->imagealt}}" title="{{$todo1->imagetitle}}">
-                                        <p>{{$todo1->imagename}}</p>
+                                        <p>{{$todo1->categoryname}}</p>
                                     </a>
                                     </div>
 								</div>
