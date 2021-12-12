@@ -56,7 +56,7 @@
         <div class="leftside-navigation">
             <ul class="sidebar-menu" id="nav-accordion">
                 <li>
-                    <a class="active" href="/admin/adminpages/addindex">
+                    <a class="active" href="/admin/addindex">
                         <i class="fa fa-dashboard"></i>
                         <span>Dashboard</span>
                     </a>
