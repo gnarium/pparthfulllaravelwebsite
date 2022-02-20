@@ -61,7 +61,7 @@
         <div class="leftside-navigation">
             <ul class="sidebar-menu" id="nav-accordion">
             <li>
-                    <a class="active" href="/home">
+                    <a class="active" href="#">
                         <i class="fa fa-dashboard"></i>
                         <span>Dashboard</span>
                     </a>
@@ -128,7 +128,7 @@
                         @method('DELETE')
                     </form> 
                     <a href="" onclick="if (confirm('Are you sure !!!')) {event.preventDefault();document.getElementById('delete{{$todo->id}}').submit();}else{event.preventDefault();}" class="btn bg-dark text-white btn-sm">
-                        <i class="fa fa-times"></i>Delete Blog
+                        <i class="fa fa-times"></i>Delete Image
                     </a></td>
                 </tr>
        </tbody>
