@@ -16,7 +16,7 @@
 <!--logo start-->
 <div class="brand1">
     <a href="/admin/adminindex" class="logo">
-	<p>Parth Charitable Trust Admin Panel</p>
+	<p>Parth Charitable Society Admin Panel</p>
 	</a>
 
 		
