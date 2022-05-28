@@ -10,7 +10,7 @@
 <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 <!-- font-awesome icons -->
 <link rel="stylesheet" href="{{ asset('admin/css/font.css')}}" type="text/css"/>
-<link href="{{ asset('admin/css/font-awesome.css')}}" rel="stylesheet"> 
+<link href="{{ asset('admin/css/font-awesome.css')}}" rel="stylesheet">
 
 
 <header class="header fixed-top clearfix" style="background-color:#FDC716">
@@ -20,7 +20,7 @@
 	<p>Parth Charitable Society Admin Panel</p>
 	</a>
 
-		
+
 </div>
 <!--logo end-->
 <div class="top-nav clearfix">
@@ -46,7 +46,7 @@
                     </li>
             </ul>
         </li>
-       
+
     </ul>
 </div>
 </header>
@@ -102,16 +102,16 @@
 		<!-- //market-->
 		<div class="market-updates">
 			<div class="clearfix"> </div>
-		</div>	
+		</div>
 		<!-- //market-->
-		
+
 	<!--//agileinfo-grap-->
 
 				</div>
 			</div>
 		</div>
 		<div class="row">
-        
+
                 <div class="col-lg-12">
                     <section class="panel">
                         <header class="panel-heading">
@@ -130,21 +130,17 @@
                                     <div class="form-group ">
                                         <label for="cemail" class="control-label col-lg-3">Category Name(required)</label>
                                         <div class="col-lg-6">
+                                            @php
+                                                $data = App\Models\Category::orderBy('title','ASC')->get();
+                                            @endphp
                                         <select class="form-control" id="exampleFormControlSelect1" name="categoryname" >
-                                                      <option>All</option>
-                                                      <option>Food Distribution</option>
-                                                      <option>Empowering Women Socially and Economically</option>
-                                                      <option>Child Development And Their Education</option>
-                                                      <option>Fitness Awareness : Daily Yoga</option>
-                                                      <option>Tree Plantation</option>
-                                                      <option>Helping Animals</option>
-                                                      <option>Healthcare</option>
-                                                      <option>Sanitization</option>
-                                                      <option>Drinking Water</option>
-                                                    </select>
+                                            <option>All</option>
+                                            @foreach ($data  as $item)
+                                                <option value="{{$item->id}}">{{ ucfirst($item->title)}}</option>
+                                            @endforeach
+                                        </select>
                                         </div>
                                     </div>
-                                    
                                     <div class="form-group ">
                                         <label for="cemail" class="control-label col-lg-3">Alt Text (required)</label>
                                         <div class="col-lg-6">
@@ -163,7 +159,7 @@
                                             <input class="form-control " id="cemail" type="file" accept=".png" name="galleryimage" required="">
                                         </div>
                                     </div>
-                                    
+
                                     <div class="form-group">
                                         <div class="col-lg-offset-3 col-lg-6">
                                             <button class="btn btn-primary" type="submit">Save</button>
@@ -177,7 +173,7 @@
                     </section>
                 </div>
             </div>
-            
+
 </section>
  </body>
 </html>
