@@ -100,10 +100,10 @@ class AdminController extends Controller
                 $profile = '';
             }
             $blogs = new gallery;
+            $blogs->cat_id = $req2->categoryname;
             $blogs->Imagename=$req2->imagename;
             $blogs->imagealt=$req2->imagealt;
             $blogs->imagetitle=$req2->imagetitle;
-            $blogs->categoryname=$req2->categoryname;
             $blogs->galleryimage=$profile;
             $blogs->save();
             return redirect('/admin/adminpages/addgallery')->with('success','blog added successfully!');
@@ -116,7 +116,7 @@ class AdminController extends Controller
         }    
         public function bloglist()
         {
-            $todoArr124 = DB::select('select * from gallery');
+            $todoArr124 = gallery::all();
             return view('admin/adminpages/galleryinfo',['todoArr124'=>$todoArr124]);    
         }
         public function editBlog($id)
