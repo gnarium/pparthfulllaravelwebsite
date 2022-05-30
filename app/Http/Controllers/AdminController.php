@@ -76,6 +76,12 @@ class AdminController extends Controller
         return view('/admin/adminpages/admincontact',['todoArr111'=>$todoArr111]);
         
     }
+    public function deletecontact($id)
+        {
+            $todoArr111 = contact::find($id)->delete();
+            return back()->with('message','1 Row Deleted');
+        }
+
     public function blogs(Request $req2)
         {
             return view('admin/adminpages/addgallery');         
