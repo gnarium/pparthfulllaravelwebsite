@@ -105,6 +105,7 @@
             <th>Contact Number</th>
             <th>Subject</th>
             <th>Message</th>
+            <th>Action</th>
            </tr>
         </thead>
         @foreach($todoArr111 as $todo)
@@ -116,6 +117,14 @@
                     <td><a href="{{$todo->phone}}">{{$todo->phone}}</td>
                     <td><a href="{{$todo->subject}}">{{$todo->subject}}</td>
                     <td><a href="{{$todo->msg}}">{{$todo->msg}}</td>
+                    <td>
+                    <form method="POST" action="{{route('adminBlogDestroy2',$todo->id)}}" id="delete{{$todo->id}}" style="display:none;">
+                        @csrf
+                        @method('DELETE')
+                    </form>
+                    <a href="" onclick="if (confirm('Are you sure !!!')) {event.preventDefault();document.getElementById('delete{{$todo->id}}').submit();}else{event.preventDefault();}" class="btn bg-dark text-white btn-sm">
+                        <i class="fa fa-times"></i>Delete Contact
+                    </a></td>
                 </tr>
        </tbody>
         @endforeach
