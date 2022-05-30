@@ -50,4 +50,5 @@ Route::get('edit/{id}',[App\Http\Controllers\AdminController::class,'editBlog'])
 Route::put('update/{id}',[App\Http\Controllers\AdminController::class,'updateBlog'])->name('adminBlogUpdate');
 
 Route::delete('admin/destroy/{id}',[App\Http\Controllers\AdminController::class,'deleteBlog'])->name('adminBlogDestroy');
+    Route::delete('admin/destroy/{id}',[App\Http\Controllers\AdminController::class,'deletecontact'])->name('adminBlogDestroy2');
 });
